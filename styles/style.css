@@ -1,0 +1,190 @@
+.back_button
+{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+}
+.back_button:hover
+{
+    background-color: rgb(255, 140, 0);
+}
+.miniIcon {
+    width: 20px;
+    height: 20px;
+}
+.input
+{
+    float: right
+}
+.content
+{
+    -webkit-text-fill-color:  rgb(0, 0, 200);
+    width: 60%;
+}
+.highlight {
+    color: rgb(240, 0, 0);
+    font-weight: bold;
+  }
+  .app_img
+  {
+    width: 15%;
+
+  }
+  #question_button
+  {
+    width: 85%;
+text-align: center;
+background-color: white;
+  }
+  #question_button:hover
+  {
+    background-color: rgb(255, 140, 0);
+    width: 85%;
+    text-align: center;
+  }
+body
+{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+main 
+{
+    
+    padding-right: 0%;
+    padding-left: 20%;
+    width: 50%;
+    float: left;
+    -webkit-text-fill-color:  rgb(0, 0, 200);
+}
+nav
+{
+margin-left: 20%;
+margin-right: 20%;
+padding: 5px;
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+
+}
+nav ul li
+{
+    list-style-type: none;
+    -webkit-text-fill-color:  rgb(0, 0, 200);
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+      
+}
+nav ul li a
+{
+    text-decoration: none;
+    -webkit-text-fill-color:  blue;
+}
+nav ul li a:hover
+{
+    text-decoration: none;
+    -webkit-text-fill-color:  rgb(255, 140, 0);
+}
+hr
+{
+    border-color: blue;
+}
+aside{
+    float: right;
+    width: 20%;
+    padding-right: 20%;
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+aside button
+{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid blue;
+    background-color: gray;
+    text-align: left;
+    width: 80%;
+}
+aside button:hover
+{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid blue;
+    background-color: rgb(255, 140, 0);;
+    text-align: left;
+    width: 80%;
+}
+aside form
+{
+    padding-top: 10px;
+    
+    margin: 10px;
+    border: 1px solid blue;
+    background-color: gray;
+    text-align: left;
+    width: 80%;
+}
+footer{
+    background-color: rgba(0, 0, 200, 0.295);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    clear: both;
+}
+
+  input::placeholder, textarea::placeholder {
+    color: #aaa; 
+    font-style: italic; 
+  }
+  form select, form input, form textarea {
+    width: 100%;
+    padding: 2px;
+    margin-left: 10px;
+    box-sizing: border-box;
+margin-top:3px ;
+  }
+  form img, form p {
+    margin-left: 10px;
+  }
+  table
+  {
+border-collapse:collapse;
+  }
+  th
+  {
+    border: 1px solid black;
+  }
+  table td
+  {
+    vertical-align: middle;
+    border: 1px solid black;
+  }
+a
+{
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+video
+{
+  display: block;
+  margin: auto;
+  -webkit-text-fill-color: black;
+}

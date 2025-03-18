@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="home">
+    <meta name="keywords" content="bus site, bus, transport, best way to travel, best">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="img/logo_ico.svg" type="image/img">
+    <title>Your enterprise way</title>
+    <style>
+       .image-carousel {
+      width: 779px;
+      height: 395px;
+      background-size: cover;
+      background-position: center;
+      animation: slide 12s infinite;
+    }
+
+    @keyframes slide {
+      0% {
+        background-image: url('img/city.jpg');
+
+      }
+      33% {
+        background-image: url('img/people.jpg');
+      }
+      66% {
+        background-image: url('img/car.jpg');
+      }
+        100% {
+            background-image: url('img/city.jpg');
+    }
+}
+
+    </style><!---->
+    <script src="script/script.js"></script>
+    <script>
+        function changeLanguage() {
+          var lang = document.getElementById("Language").value; 
+            if (lang == "ie") {
+                 window.location.href = "dont_working.html";
+            }
+        }
+        function regirectToNoWorking() {
+            window.location.href = "dont_working.html";
+        }
+    
+        
+    </script>
+</head>
+<body>
+  <header>
+    <nav>
+        
+            <p>Language:<select id="Language" name="lang" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="ie">Irish</option>
+                </select>
+                <a href="#index.html" style="float: right"><img src="img/logo.svg" alt="logo"></a><!--don`t working-->
+                <input class="input" type="submit" value="Search" >
+                    <input class="input" type="text" size="10">
+                    
+            
+            </p>
+        <ul>
+<li><a href="dont_working.html">About</a></li>
+<li><a href="dont_working.html">Passagers</a></li>
+<li><a href="dont_working.html">Newsroom</a></li>
+<li><a href="dont_working.html">Feedback</a></li>
+        </ul> 
+        <hr>
+        
+    </nav>
+</header>
+    <main >
+ <div class="image-carousel"></div>
+
+ 
+    <h3>
+      News
+    </h3>
+<h4>
+  Date: June 17, 2024
+</h4>
+<p>
+  We are pleased to announce that we have expanded the list of destinations for passenger transportation! Now you can travel in
+comfort along the most popular routes in Russia.
+
+What awaits you:
+
+Comfortable and modern buses with air conditioning and Wi-Fi.
+Experienced beer drivers and safe trips.
+Flexible schedule and affordable prices.
+Plan your trip right now - we will take you to the right place quickly and comfortably!
+</p>
+<h4>
+  Date: June 14, 2024
+</h4>
+<p>
+  Traveling around Ireland in summer is even more profitable! Book group transportation (4 people or more) and get a 20%
+discount on the trip.
+</p>
+
+</main>
+<aside>
+<button onclick="window.location.href='dont_working.html'"><img src="img/ticket_ico.svg" alt="ticket ico"> <p>Buy tickets</p></button>
+<button onclick="window.location.href='app.html'"><img src="img/logo_ico.svg" alt="download app"><p>Our application</p></button>
+<button onclick="window.location.href='delays.html'"><img src="img/warning_ico.svg" alt="delays"><p>Delays</p></button>
+<button onclick="window.location.href='dont_working.html'"><img src="img/internet_ico.svg" alt="International routes"><p>International routes</p></button>
+<button onclick="window.location.href='dont_working.html'"><img src="img/apps_ico.svg" alt="Ordering servise"><p>Ordering servise</p></button>
+  <form action="http://foo.com" method="get">
+    <img src="img/question.svg" alt="question">
+    <p>Question</p>
+    <select style="width: 85%;" name="question" required>
+      <option value="N/A" disabled selected>Select</option>
+      <option value="aboutbuses">About buses</option>
+      <option value="passagersservices">Passagers services</option>
+      <option value="anticorruption">Anti-corruption</option>
+      <option value="freighttransport">Freight transport</option>
+      <option value="codeofeticks">Code of ethics</option>
+      <option value="other">Other</option>
+    </select>
+    <input type="email" style="width: 85%;" name="email" required placeholder="Email">
+    <label for="email" class="highlight" style="display: inline-block; margin-left: 0.5%;width: 2%;vertical-align: top;">*</label>
+    <textarea style="width: 85%;resize: vertical;height: 70px;" name="message" required placeholder="Messsege"></textarea>
+    <label for="message" class="highlight" style="display: inline-block; margin-left: 0.5%;width: 2%;vertical-align: top;">*</label>
+    <button type="submit" id="question_button">Send</button>
+  </form>
+</aside>  
+
+<footer><p>Web desight project №1 &copy;2025</p> <button onclick="window.location.href='ad.html'">aditional page for checklist</button></footer>
+</body>
+</html>
